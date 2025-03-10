@@ -1,0 +1,54 @@
+.elem {
+  background-color: #0b0e12;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 17px 35px;
+  box-sizing: border-box;
+}
+
+.elem__container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.elem__statusContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.elem__status {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  min-width: 92px;
+  text-align: center;
+  font-size: 12px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.elem__status_Finished {
+  background-color: #eb0237;
+}
+
+.elem__status_Ongoing {
+  background-color: #43ad28;
+}
+
+.elem__status_Scheduled {
+  background-color: #eb6402;
+}

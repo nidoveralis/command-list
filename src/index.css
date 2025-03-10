@@ -1,0 +1,9 @@
+@import "./fonts/fonts.css";
+
+body {
+  margin: 42px;
+  background: #06080c;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
