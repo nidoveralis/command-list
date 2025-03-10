@@ -21,3 +21,5 @@
 1. Клонируйте репозиторий
 2. Установите зависимости npm install
 3. Запустите npm start
+
+Посмотреть можно [здесь](https://nidoveralis.github.io/command-list/)
